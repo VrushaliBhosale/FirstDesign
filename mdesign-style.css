@@ -1,0 +1,132 @@
+
+    /* For mobile : */
+  
+.div1{
+    width:100%;
+}
+.first{
+    height:700px;
+}
+.div1-1{
+    background-color: orange;    
+    height:700px;
+    width:30%;
+    float: left;
+}
+.div1-1 p{
+    -webkit-transform: rotate(-90deg);
+    text-align: left;
+    color:white;
+}
+.div1-2{
+    background-color:midnightblue;
+    height:700px;
+    width:70%;
+    float: left ;
+}
+.div1-2 p{   
+    padding-top: 50px;
+    padding-left: 50px;
+    color: white;
+    font-size:70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1-2 img{
+    padding-top:120px;
+    width:50%;
+    height:300px;
+}
+.div1-3{
+    background-color:purple;
+    height:300px;
+}
+.div1-4 img{
+    width:100%;
+}
+.div2{
+    height:900px;
+    background-color: bisque;
+}
+.div2-heading{
+    font-size: 50px;
+    font-weight: bold;
+    padding:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div3{
+    height:900px;
+    background-color: midnightblue;
+}
+.div3-heading{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    padding:40px;
+}
+.div4 .participation{
+    height:800px;
+    background-color: bisque;
+}
+.div4-head{
+    font-size: 50px;
+    font-weight: bold;
+    padding:40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div4 .benefits{
+    height:800px;
+    background-color: skyblue;
+}
+.div4 .requirements{
+    height:1200px;
+    background-color: bisque;
+    
+}
+
+@media screen and (min-width : 800px){
+    .div1{
+        height:700px;
+    }
+    .first{
+        width:40%;
+        float:left;
+    }
+    .div1-1{
+        width:40%;
+    }
+    .div1-2{
+        width:60%;
+    }
+    .div1-2 img{
+        width:80%;
+        height:400px;
+        padding:30px;  
+    }
+    .div1-3{
+        float: right;
+        width:60%;
+        height:413px;
+       
+    }
+    .div1-4{
+        width:60%;
+        float: right;
+       
+    }
+    .div3{
+        height:900px;
+        background-image: url(download-1.jpg);
+        background-size: cover;
+    }
+    .div3-fixed{
+        height:400px;
+        position: relative;
+        top:200px;     
+        background-color: midnightblue;
+        width: 30%; 
+    }
+    .div3-heading{
+        font-size:30px;
+        
+    }
+}

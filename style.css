@@ -122,7 +122,7 @@ p{
     color:wheat;
 }
 .rotate{
-    display:block;
+    
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg); 
     color:white;
